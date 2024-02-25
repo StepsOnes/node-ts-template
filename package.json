@@ -1,0 +1,25 @@
+{
+  "name": "node_ts_template",
+  "version": "1.0.0",
+  "description": "Node Typescript Template",
+  "main": "app.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "start": "node ./dist/app.js",
+    "dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0",
+    "prettierrc": "^0.0.0-5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
