@@ -8,8 +8,8 @@
     "start": "node ./dist/app.js",
     "dev": "npx nodemon"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "typescript", "template"],
+  "author": "StepsOnes",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.20",
